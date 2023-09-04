@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/styles/style.css" rel="stylesheet">
+    <title>Card Game</title>
+</head>
+
+<body>
+    <!-- Section containing the introduction and instructions -->
+    <section class="hero-bar">
+        <!-- Start Game Button -->
+        <h2 id="startGameText" class="start-game-text">Start The Game</h2>
+        
+        <!-- Ordered list of instructions -->
+        <ul class="bar-list">
+            <li>Just press and play</li>
+            <li>It's the best game</li>
+            <li>To train your brain</li>
+        </ul>
+    </section>
+
+    <!-- Section containing the game board -->
+    <section class="game-page">
+
+        <!-- Container for cards in the upper row -->
+        <div class="card-container-up">
+            
+            <!-- Card 1 -->
+            <div class="card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img class="front-card-image" src="/source/Front_Image.jpg">
+                    </div>
+                    <div class="flip-card-back">
+                        <path fill="#FC490B" id="M00 00 00 00" /> <!-- ID for comparison -->
+                        <img class="back-card-image" src="/source/html.svg" alt="img">
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Card 2 -->
+            <div class="card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img class="front-card-image" src="/source/Front_Image.jpg">
+                    </div>
+                    <div class="flip-card-back">
+                        <path fill="#3471a3" id="M01 00 00 00" />
+                        <img class="back-card-image" src="/source/python.svg" alt="img">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img class="front-card-image" src="/source/Front_Image.jpg">
+                    </div>
+                    <div class="flip-card-back">
+                        <path fill="#fbd24d" id="M02 00 00 00" />
+                        <img class="back-card-image" src="/source/JS.svg" alt="img">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Container for cards in the lower row -->
+        <div id="cardContainer" class="card-container-bottom">
+
+            <!-- Card 4 -->
+            <div class="card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img class="front-card-image" src="/source/Front_Image.jpg">
+                    </div>
+                    <div class="flip-card-back">
+                        <path fill="#3471a3" id="M01 00 00 00" />
+                        <img class="back-card-image" src="/source/python.svg" alt="img">
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Card 5 -->
+            <div class="card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img class="front-card-image" src="/source/Front_Image.jpg">
+                    </div>
+                    <div class="flip-card-back">
+                        <path fill="#fbd24d" id="M02 00 00 00" />
+                        <img class="back-card-image" src="/source/JS.svg" alt="img">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img class="front-card-image" src="/source/Front_Image.jpg">
+                    </div>
+                    <div class="flip-card-back">
+                        <path fill="#FC490B" id="M00 00 00 00" /> <!-- ID for comparison -->
+                        <img class="back-card-image" src="/source/html.svg" alt="img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="/script/jsES6.js" type="text/javascript"></script>
+</body>
+</html>
